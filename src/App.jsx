@@ -39,7 +39,7 @@ function App() {
         setSubmit(true);
         setErrorMessage(''); // Clear error message on successful submission
       } else {
-        setErrorMessage('The Sudoku puzzle cannot be solved.');
+        setErrorMessage('The Sudoko puzzle cannot be solved.');
       }
     } else {
       setErrorMessage('INVALID SUDOKO INPUTS .PLEASE ENTER CORRECT INPUTS');
@@ -160,7 +160,7 @@ function App() {
         background: 'lightGreen',
         borderRadius: '10px'
       }}>
-        ENTER SUDOKU INPUTS
+        ENTER SUDOKO INPUTS
       </div>
       <div>
         {grid.map((row, rowIndex) => (
