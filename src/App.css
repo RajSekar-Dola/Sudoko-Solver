@@ -1,0 +1,9 @@
+button{
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(20, 233, 20);
+}
