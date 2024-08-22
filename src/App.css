@@ -1,9 +1,173 @@
-button{
-    border-radius: 10px;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 17px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 5.1vw;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2E8B57;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    border: 2px groove black;
+    padding: 8.5px;
+    margin: 8.5px auto;
+    text-align: center;
+    background: lightgreen;
+    border-radius: 8.5px;
+    font-size: 3.4vw;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.row {
+    display: flex;
+    height: auto;
+    margin-bottom: 4.25px;
+}
+
+input {
+    width: 7.65vw;
+    height: 7.65vw;
+    max-width: 42.5px;
+    max-height: 42.5px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-right: 4.25px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    cursor: text;
+}
+
+input:disabled {
+    cursor: not-allowed;
+}
+
+button {
+    margin: 21.25px 21.25px;
+    padding: 8.5px 17px;
+    font-size: 3.4vw;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8.5px;
     background-color: lightgreen;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     background-color: rgb(20, 233, 20);
 }
+
+.error-message {
+    border: 2px groove black;
+    padding: 8.5px;
+    margin: 8.5px auto;
+    text-align: center;
+    background: black;
+    color: lightgreen;
+    border-radius: 8.5px;
+    font-size: 2.55vw;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timer svg {
+    margin-right: 8px;
+    font-size: 24px;
+    color: #555;
+}
+
+.success-message {
+    color: #28a745;
+    background-color: #d4edda;
+    border: 2px solid #28a745;
+     border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 2.55vw;
+    }
+
+    .subtitle,
+    .error-message {
+        font-size: 1.7vw;
+    }
+
+    input {
+        width: 5.1vw;
+        height: 5.1vw;
+    }
+
+    button {
+        font-size: 1.275vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 1.7vw;
+    }
+
+    .subtitle,
+    .error-message {
+        font-size: 1.275vw;
+    }
+
+    input {
+        width: 3.4vw;
+        height: 3.4vw;
+    }
+
+    button {
+        font-size: 0.85vw;
+    }
+}
+

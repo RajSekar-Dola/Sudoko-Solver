@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.title {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #2E8B57;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  border: 2px groove black;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  background: lightgreen;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: white;
+  cursor: default;
+  font-size: 18px;
+}
+
+.cell:nth-child(3n) {
+  margin-right: 3px;
+  border-right: 3px solid #000;
+}
+
+.row:nth-child(3n) .cell {
+  margin-bottom: 3px;
+  border-bottom: 3px solid #000;
+}
