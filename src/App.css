@@ -188,4 +188,7 @@ button:hover {
     button {
         font-size: 4vw;
     }
+    .box2{
+        margin-left: 45px;
+    }
 }
