@@ -109,7 +109,7 @@ button:hover {
     color: #28a745;
     background-color: #d4edda;
     border: 2px solid #28a745;
-     border-radius: 5px;
+    border-radius: 5px;
     padding: 10px;
     margin-top: 15px;
     font-size: 18px;
@@ -130,8 +130,12 @@ button:hover {
 }
 
 
-
 @media (min-width: 768px) {
+   .container{
+     display: flex;
+     flex-direction: column;
+   }
+
     .title {
         font-size: 2.55vw;
     }
@@ -171,3 +175,17 @@ button:hover {
     }
 }
 
+@media (max-width: 576px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 6vw;
+    }
+
+    button {
+        font-size: 4vw;
+    }
+}
