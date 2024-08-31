@@ -222,7 +222,7 @@ function SolveSudoku({ successMessage, setSuccessMessage }) {
             {row.map((value, colIndex) => (
               <input
                 key={`${rowIndex}-${colIndex}`}
-                type="Number"
+                type="text"
                 value={value}
                 onChange={(e) => handleChange(rowIndex, colIndex, e.target.value)}
                 className="cell"
