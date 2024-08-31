@@ -167,7 +167,7 @@ function InputsSudoku({ buttonShow }) {
             {row.map((value, colIndex) => (
               <input
                 key={`${rowIndex}-${colIndex}`}
-                type="text"
+                type="Number"
                 value={value}
                 onChange={(e) => handleChange(rowIndex, colIndex, e.target.value)}
                 className="cell"
