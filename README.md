@@ -4,7 +4,7 @@
 
 This React-based website provides an interactive Sudoku experience with two main features:
 1. *Automatic Sudoku Solver*: Input numbers into some squares, and the website will solve the remaining squares to complete the puzzle.
-2. *Random Sudoku Puzzle Generator*: Instantly generates random Sudoku puzzles for users to solve at varying difficulty levels.
+2. *Sudoku Puzzle Generator*: Instantly generates already stored JSON format Sudoku puzzles for users to solve at varying difficulty levels.
 
 The website offers a seamless way for users to either play Sudoku or watch an algorithm solve it in real-time, aiming to bring a balance of fun and learning for Sudoku enthusiasts.
 
