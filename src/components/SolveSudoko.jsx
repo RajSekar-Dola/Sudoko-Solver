@@ -68,7 +68,7 @@ function SolveSudoku({ successMessage, setSuccessMessage }) {
           : r
       );
 
-      const newErrorCells = Array.from({ length: 9 }, () => Array(9).fill(false));
+      let newErrorCells = Array.from({ length: 9 }, () => Array(9).fill(false));
 
       const newModifiedCells = modifiedCells.map((r, rowIndex) =>
         rowIndex === row
