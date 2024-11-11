@@ -21,19 +21,15 @@ The website offers a seamless way for users to either play Sudoku or watch an al
 To set up and run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
-    bash
-    git clone <repository-url>
+    git clone https://github.com/RajSekar-Dola/Sudoko-Solver.git
     
 2. Navigate to the project directory:
-    bash
     cd SudokuSolver
     
 3. Install the necessary dependencies:
-    bash
     npm install
     
 4. Start the development server:
-    bash
     npm start
     
    Access the website at http://localhost:5173 in your browser.
