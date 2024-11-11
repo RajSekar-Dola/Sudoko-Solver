@@ -52,9 +52,3 @@ To set up and run this project locally, follow these steps:
 
 - This project was created and maintained by [RajSekar-Dola] (https://github.com/RajSekar-Dola).
 - Sudoku generation and solving logic were crafted with custom algorithms in React, with no external libraries.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
----
